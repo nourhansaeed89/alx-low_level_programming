@@ -2,9 +2,9 @@
 /**
  * main - entry  point
  *
- * description: Write a C program that print by using puts function
+ * Description: Write a C program that print by using puts function
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
