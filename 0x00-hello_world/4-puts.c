@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - return point
+ * main - entry  point
  *
  * description: Write a C program that print by using puts function
  *
