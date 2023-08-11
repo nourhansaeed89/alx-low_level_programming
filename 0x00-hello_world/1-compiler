@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o $output_file.o
+gcc -c $CFILE 
