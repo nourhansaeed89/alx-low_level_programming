@@ -2,7 +2,7 @@
 /**
  * main - entry  point
  *
- * Description: Write a program that prints all single digit numbers of base 10
+ * Description: Write a program that prints  combinations of single-digit numbers
  *
  * Return: always 0 (success)
  */
