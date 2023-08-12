@@ -2,7 +2,7 @@
 /**
  * main - entry  point
  *
- * Description: Write a program that prints  combinations of single-digit numbers
+ * Description: a program that prints  combinations of single-digit numbers
  *
  * Return: always 0 (success)
  */
@@ -16,7 +16,7 @@ int main(void)
 
 		if (i != 9)
 		{
-			putchar(' , ');
+			putchar(',');
 			putchar(' ');
 		}
 	}
