@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry  point
+ * print_alphabet_x10 - Prints the lowercase alphabet 10 times
  *
  * Description: Write a program that prints 10 times
  *
@@ -9,13 +9,15 @@
  */
 void print_alphabet_x10(void)
 {
-	int i = 0;
+	int i;
 	int l;
 
 	for (i = 0; i < 9; i++)
 	{
 		for (l = 'a'; l <= 'z'; l++)
-		_putchar(l);
+		{
+			_putchar(l);
+		}
 		_putchar('\n');
 	}
 }
