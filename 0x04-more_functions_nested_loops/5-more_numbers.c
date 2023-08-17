@@ -13,7 +13,7 @@ void more_numbers(void)
 			if (j > 9)
 			{
 				_putchar(1 + 48);
-				x = j % 10
+				x = j % 10;
 			}
 				_putchar(x + 48);
 			}
