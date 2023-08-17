@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * mul - Multiplies two integers.
@@ -9,8 +10,5 @@
  */
 int mul(int a, int b)
 {
-	int sum;
-
-	sun = a * b;
-	return (sum);
+	return (a * b);
 }
