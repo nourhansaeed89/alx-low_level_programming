@@ -9,18 +9,19 @@ void times_table(void)
 	int num, mul, result;
 
 	for (num = 0; num <= 9; num++)
+		_putchar(48);
 	{
-		for (mul = 0; mul <= 9; mul++)
+		for (mul = 1; mul <= 9; mul++)
 	{
 			result = num * mul;
-	if (mul != 0)
-		printf(", ");
-
-	if (result >= 10)
-	printf("%d", result);
+			_putchar(',');
+			_putchar(' ');
+	if (result <= 9)
+	_putchar(' ');
 	else
-	printf(" %d", result);
+	_putchar((result / 10) + 48);
+	_putchar((result % 10) + 48);
 	}
-	printf("\n");
+	_putchar('\n');
 	}
 }
