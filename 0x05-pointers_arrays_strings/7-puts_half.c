@@ -13,7 +13,7 @@ int _strlen(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 		;
 	i++;
-	for (i / 2; s[i] != '\0'; i++)
+	for (i /= 2; s[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
 	}
