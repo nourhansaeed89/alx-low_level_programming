@@ -15,7 +15,7 @@ int _strlen(char *s)
 	i++;
 	for (i /= 2; s[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
