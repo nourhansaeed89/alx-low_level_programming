@@ -10,13 +10,17 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int x;
+	int x = 0;
 	int y;
 
-	for (x = 0; dest[x]; x++)
+	while (dest[x])
+
+		x++;
+
 		for (y = 0; src[y]; y++)
+
 			dest[x] = src[y];
-			x++;
+		x++;
 
 	return (dest);
 }
