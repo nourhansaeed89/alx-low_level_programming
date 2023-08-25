@@ -25,8 +25,8 @@ int isDelimiter(char c)
 
 	for (j = 0; j < 12; j++)
 		if (c == delimiter[j])
-		return (1);
-		return (0);
+			return (1);
+	return (0);
 }
 
 /**
