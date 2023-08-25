@@ -13,7 +13,7 @@ int is_separator(char c)
 	for (int i = 0; separators[i]; i++)
 	{
 	if (c == separators[i])
-	return (10);
+	return (1);
 	}
 	return (0);
 }
