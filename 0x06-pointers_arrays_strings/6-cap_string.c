@@ -33,7 +33,7 @@ char *cap_string(char *s)
 	{
 	capitalize = 1;
 	}
-	else if (capitalize && s[i] >= 'a' && s[i] <= 'z')
+	else if (capitalize = 1 && s[i] >= 'a' && s[i] <= 'z')
 	{
 	s[i] -= 32;
 	capitalize = 0;
