@@ -14,4 +14,6 @@ char *cap_string(char *);
 int isLower(char c);
 int isDelimiter(char c);
 char *leet(char *);
+int is_separator(char c);
+
 #endif
