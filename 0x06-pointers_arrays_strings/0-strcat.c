@@ -12,17 +12,17 @@ char *_strcat(char *dest, char *src)
 {
 	int x = 0;
 	int y;
+	/*find the size of array*/
 
 	while (dest[x])
-	{		
+	{
 		x++;
 	}
-
+	/*iterate the src array value without null byte*/
 		for (y = 0; src[y]; y++)
 
-		{	
-			dest[x] = src[y];
-			x++
+		{	/*append src[y] to dest[x]*/
+			dest[x++] = src[y];
 		}
 
 	return (dest);
