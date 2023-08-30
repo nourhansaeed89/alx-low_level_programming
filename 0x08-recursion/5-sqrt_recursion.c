@@ -28,5 +28,5 @@ if (s * s == n)
 	else if (s * s < n)
 	return (square(n, s + 1));
 	else
-	return (-1)
+	return (-1);
 }
