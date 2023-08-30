@@ -5,7 +5,7 @@
  * _sqrt_recursion - function that returns the natural square root of a number
  *
  * @n: input number
- * s: squar root of num
+ *@s: squar root of num
  *
  * Return: If n does not have a natural square root, the function return -1
  */
