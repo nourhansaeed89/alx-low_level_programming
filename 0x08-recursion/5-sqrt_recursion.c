@@ -22,10 +22,11 @@ int _sqrt_recursion(int n)
  * Return: If n does not have a natural square root, the function return -1
  */
 int square(int n, int s);
+{
 if (s * s == n)
 	return (s);
 	else if (s * s < n)
 	return (square(n, s + 1));
 	else
 	return (-1)
-	}
+}
