@@ -2,13 +2,12 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - returns 1 if the input a prime number, otherwise return 0
+ * is_divisible - Checks if num is divisible by divisor.
+ * @num: The number to be checked.
+ * @divisor: The divisor to check against.
  *
- * @n: input number
- *
- * Return: returns 1 if the input a prime number, otherwise return 0
+ * Return: 1 if num is divisible by divisor, 0 otherwise.
  */
-#include <stdio.h>
 
 int is_divisible(int num, int divisor)
 {
@@ -30,14 +29,11 @@ int is_divisible(int num, int divisor)
 	return (is_divisible(num, divisor + 1));
 }
 /**
- * is_divisible - returns 1 if the input a prime number, otherwise return 0
+ * is_prime_number - Checks if a number is prime.
+ * @n: The number to be checked.
  *
- * @num: input number
- * @divisor: check num
- *
- * Return: returns 1 if the input a prime number, otherwise return 0
+ * Return: 1 if n is prime, 0 otherwise.
  */
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
