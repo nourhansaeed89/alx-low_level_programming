@@ -14,7 +14,7 @@ int _strlen(char *s)
 {
 	int size;
 
-	for (size = 0; size != '\0'; size++)
+	for (size = 0; s[size] != '\0'; size++)
 	;
 		return (size);
 }
@@ -51,4 +51,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	m[i] = '\0';
 	return (m);
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 }
