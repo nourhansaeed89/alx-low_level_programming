@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 /**
  * *_memset - used to fill memory
  * @s: pointer
@@ -19,11 +18,11 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * *_calloc - prints buffer in hexa
+ * *_calloc - function that allocates memory for an array
  * @nmemb: an array of memory to print
  * @size: the size of the memory to print
  *
- * Return: Nothing.
+ * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -31,6 +30,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (size == 0 || nmemb == 0)
 		return (NULL);
+	m = malloc(sizeof(int) * nmemb);
 	if (m == 0)
 		return (NULL);
 	_memset(m, 0, sizeof(int) * nmemb);
