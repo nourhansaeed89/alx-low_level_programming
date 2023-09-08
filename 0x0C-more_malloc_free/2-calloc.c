@@ -19,7 +19,7 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * *_calloc - prints buffer in hexa
  * @nmemb: an array of memory to print
  * @size: the size of the memory to print
  *
