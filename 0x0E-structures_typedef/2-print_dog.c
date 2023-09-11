@@ -4,11 +4,11 @@
 /**
  * print_dog - function that prints a struct dog
  *
- * @d:  struct dog
+ * @d: struct dog
  *
  * Return: void
  */
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d)
 	{
