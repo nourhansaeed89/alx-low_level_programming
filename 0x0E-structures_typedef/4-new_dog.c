@@ -12,11 +12,11 @@
  */
 int _strlen(const char *str)
 {
-	int len = 0;
+	int length = 0;
 
 	while (*str++)
-		len++;
-	return (len);
+		length++;
+	return (length);
 }
 
 /**
@@ -52,6 +52,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
+
+	/* if name and owner is empty and age less than zero */
 	if (!name || age < 0 || !owner)
 		return (NULL);
 
