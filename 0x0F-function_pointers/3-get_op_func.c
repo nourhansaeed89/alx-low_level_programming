@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * *get_op_func - the function that selects the correct function to perform
+ * get_op_func - the function that selects the correct function to perform
  * @s: string
  * Return: function
  */
