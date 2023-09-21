@@ -6,7 +6,6 @@ main:
 	mov	edi, msg
 	mov	eax, 0
 	call	prinf
-	push	rdi
 
 section		.data
-	msg db 'Hello, Ahmed', 0xa, 0
+	msg db 'Hello, holberton', 0xa, 0
