@@ -40,7 +40,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		{
 			org = org->next;
 		}
-	orig->next = new_end;
+	org->next = new_end;
 	}
 
 	return (new_end);
