@@ -8,4 +8,4 @@ main:
 	call	prinf
 
 section		.data
-	msg db 'Hello, holberton', 0xa, 0
+	msg db 'Hello, Holberton', 0xa, 0
