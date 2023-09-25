@@ -1,11 +1,11 @@
-#include "lists"
+#include "lists.h"
 
 /**
  * add_nodeint - unction that adds a new node at the beginning
  *
  * @head: start of list
  * @n : num of list
- * Eeturn: node
+ * Return: node
  */
 
 
